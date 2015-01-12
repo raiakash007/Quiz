@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  
+  <head lang="en">
+    
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    
+    <!-- Style sheet start-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Style sheet end-->
+
+    <!-- Scripts start-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Scripts end-->
+    
+  </head>
+
+  <body>
+      
+      <h1>Quiz App</h1>
+      
+      <div class="quiz">
+      
+          <div class="start">
+        
+              <h2> Welcome to the quiz app!</h2>
+        
+              <!--Enter you name start-->
+              <h3>What is your name:-&nbsp;<input type="text" id="name" name="name"/></h3>
+              <!--Enter you name end-->
+        
+              <button id="start">Start quiz!</button>
+      
+          </div>
+      
+          <div class="form hidden">
+        
+              <form id="form">
+          
+                  <!--Radio button 1-->
+                  <input name="group1" value="answer1" type="radio" />
+          
+                  <span id="ans0"></span>&nbsp;<p id="p0" style="margin-left: 169px;margin-top: -24px;"></p>
+          
+                  <br />
+                  
+                  <!--Radio button 2-->
+                  <input name="group1" value="answer2" type="radio" />
+          
+                  <span id="ans1"></span>&nbsp;<p id="p1" style="margin-left: 169px;margin-top: -24px;"></p>
+          
+                  <br />
+                  
+                  <!--Radio button 3-->
+                  <input name="group1" value="answer3" type="radio" />
+          
+                  <span id="ans2"></span>&nbsp;<p id="p2" style="margin-left: 169px;margin-top: -24px;"></p>
+          
+                  <br />
+                            
+                  <!--Radio button 4-->
+                  <input name="group1" value="answer4" type="radio" />
+          
+                  <span id="ans3"></span>&nbsp;<p id="p3" style="margin-left: 169px;margin-top: -24px;"></p>
+          
+                  <br />
+        
+              </form>
+        
+              <div class="record"></div>
+      
+          </div>
+    
+      </div>
+      
+  </body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+    background: darkcyan;
+    text-align: center;
+    color: floralwhite;
+}
+
+.next {
+    float: right;
+    margin-right: 25em;
+}
+
+.form {
+    text-align: center;
+}
+
+.form h2 {
+    color: white;
+}
+
+#form {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.hidden {
+    display: none;
+}
